@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.otf.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "otf.refmap.json",
+  "mixins": [
+    "ComponentMixin"
+  ],
+  "client": [
+    "FontMixin",
+    "MinecraftMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
